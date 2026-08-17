@@ -1,8 +1,6 @@
 body{
     background-color: rgb(255, 254, 245);
     box-sizing: border-box;
-    color: rgb(27, 23, 21);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100%;
     margin: 0;
     min-height: 100vh;
@@ -11,12 +9,6 @@ body{
 }
 
 
-.main{
-    background-color: rgb(209, 225, 255);
-    color: black;
-    flex: 1;
-    
-}
 
 .top-header{
     background-color: rgb(37, 37, 94);
@@ -37,8 +29,8 @@ body{
 
 
 .header{
-background-color: rgb(94, 142, 233);
-color: rgb(255, 243, 227);
+background-color: rgb(238, 255, 254);
+color: rgb(60, 96, 175);
 width: 100%;
 margin: 0%;
 }
@@ -56,6 +48,78 @@ margin: 0%;
     display: flex;
     gap: 15px;
 }
+
+.sticky-header{
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+
+
+.main{
+    background-color: rgb(238, 255, 254);
+    color: black;
+}
+
+.top_banner{
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+     margin: 0%;
+     padding: 0%;
+     
+}
+
+
+
+.summer-banner{
+    border-radius:25px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    object-fit: cover;
+    
+}
+
+.banner-text{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    font-size: 74px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(241, 253, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: -4px -6px 0 rgb(255, 8, 181),
+                 2px 2px 0 rgb(17, 16, 43), 
+                 6px 7px 0 rgb(255, 115, 0), 
+                 5px 6px 0 rgb(255, 115, 0),
+                 4px 5px 0 rgb(255, 115, 0),
+                 3px 4px 0 rgb(255, 115, 0); 
+    -webkit-text-stroke: 2.5px rgb(17, 16, 43);
+                 
+
+}
+
+.top_banner button{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(218, 16, 157);
+    padding: 15px 50px;
+    background-color: rgb(241, 253, 255);
+    border-radius: 35px;
+    border: none;
+    box-shadow: 3px 3px 0 rgb(240, 110, 4);
+ }
+
+
+
+
 
 
 
