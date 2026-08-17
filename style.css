@@ -18,13 +18,20 @@ body{
     
 }
 
-
-.top-page{
-background-color: rgb(39, 24, 82);
-color: bisque;
-font-family: Georgia, 'Times New Roman', Times, serif;
-display: flex;
+.top-header{
+    background-color: rgb(37, 37, 94);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0%;
 }
+
+.top-text{
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 
 .header{
 background-color: rgb(94, 142, 233);
@@ -34,9 +41,13 @@ font-size: 16px;
 font-weight: bold;
 padding: 15px;
 display: flex;
+flex-direction: column;
 margin: 0%;
 box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
+
+
+
 
 
 
@@ -49,23 +60,6 @@ ul{
 a{
     text-decoration: none;
 }
-
-.right-side {
-    color: rgb(8, 8, 8);
-    display: flex;
-    gap: 25px;
-}
-
-.left-side {
-    color: rgb(8, 8, 8);
-    display: flex;
-    gap: 25px;
-}
-
-
-
-
-
 
 
 
@@ -92,6 +86,3 @@ a{
     gap: 15px;
 }
 
-.footer-logos img{
-    filter: grayscale(50);
-}
