@@ -57,7 +57,7 @@ margin: 0%;
 
 
 .main{
-    background-color: rgb(238, 255, 254);
+    background-color: #eefffe;
     color: black;
 }
 
@@ -67,13 +67,11 @@ margin: 0%;
      overflow: hidden;
      margin: 0%;
      padding: 0%;
-     
 }
 
 
-
 .summer-banner{
-    border-radius:25px;
+    border-radius:0px;
     width: 100%;
     overflow: hidden;
     display: block;
@@ -123,7 +121,8 @@ margin: 0%;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background: linear-gradient(to bottom, white,#fdefb0);
  }
 
  .time-offer-h{
@@ -133,17 +132,25 @@ margin: 0%;
     color:rgb(60, 96, 175);
  }
 
- .limited-time-offers{
-    background-color: rgb(249, 252, 255);
-    padding: 55px;
+ .container-special-offers{
+  width: 100%; 
+  background-color: rgb(253, 239, 176);
+}
+
+.limited-time-offers{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 35px;
- }
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 6px;
+    padding-top: 35px;
+    gap:35px;
+  }
 
  .time-offer-product{
    flex:1; 
+   height: 100%;
    flex-direction: column;
  }
 
@@ -152,12 +159,14 @@ margin: 0%;
     height: 100%;
  }
 
+
 .usual-offer-text{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background: linear-gradient(to top, #eefffe,#fdefb0);
  }
 
  .usual-offer-h{
@@ -167,22 +176,27 @@ margin: 0%;
     color:rgb(60, 96, 175);
  }
 
+.container-products-offers{
+width: 100%; 
+background-color: #eefffe;
+}
 
 .products-offers{
-    background-color: rgb(249, 252, 255);
-    padding: 55px;
-    padding-left: 100px;
-    padding-right: 100px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     flex-direction: row;
     gap: 25px;
-    margin-bottom: 184px;
+    margin-bottom: 185px;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 6px;
+    padding-top: 27px;
  }
 
  .product{
    flex:1 1 20%; 
+   height: 100%;
    flex-direction: column;
  }
 
@@ -328,6 +342,7 @@ transform: translate(-95px,-10px);
     height: 700px;
     background-color:rgb(108, 162, 233);
     gap: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
