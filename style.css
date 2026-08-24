@@ -197,6 +197,63 @@ margin: 0%;
 
 
 
+.small-banner{
+    background-color: rgb(143, 208, 238);
+    display: flex;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 100px;
+    border-radius:50px;
+    height: 550px;
+    overflow: hidden;
+    }
+
+
+.half-small-banner{
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+}
+
+
+.info-banner{
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+    flex-direction: column;
+    width: 600px;
+    transform: translate(-30px,-10px);
+}
+
+.info-banner p {
+ text-align: left;
+ font-size: 16px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+} 
+
+.info-banner h2 {
+ text-align: left;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ margin-bottom: 0% ;
+}
+
+.info-banner button {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 16px;
+padding: 14px 24px;
+border-radius: 25px;
+background-color: rgb(191, 223, 238);
+color: rgb(60, 96, 175);
+border-color: rgb(74, 115, 168);
+border-width: 4px;
+}
+
+
+.img-small-banner{
+}
+
+
 
 .footer{
     background-color: rgb(64, 109, 175);
